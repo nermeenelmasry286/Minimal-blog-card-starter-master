@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+       
+         margin: 0;
+         display: grid;
+         justify-items: center;
+         font-family: "Sora", sans-serif;
+         
+      }
+     
+      .card {
+        width: 368px;
+        margin-top:164px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+      }
+      img{
+        border-radius: 8px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+      .card__category{
+        color: #7C19EE;
+        background-color: #F2EAFD;
+        border-radius: 16px;
+        padding: 6px 16px;
+        display: inline-block;
+        margin-bottom: 16px;
+        font-size:10px;
+        font-weight: 600;
+   
+      }
+      .card__title{
+        margin-bottom: 6px;
+        font-size:18px;
+        color:#20293A;
+        font-weight:600;
+      }
+      .card__description{
+        margin-bottom: 20px;
+        font-size:14px;
+        color:#394150;
+        line-height: 1.5;
+      }
+      .line{
+    height: 1px;
+    background: #E5EAF0;
+
+    margin-left: -16px;
+    margin-right: -16px;
+}
+      .card__author {
+        font-size:12px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color:#394150;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Design
+
+  Embracing Minimalism
+
+  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+
+  Annie Spratt -->
+
+
+  <div class="card">
+      <div class="card__image">
+        <img src="resources/Cactus.jpg" alt="Equilibrium" />
+      </div>
+      <div class="card__content">
+        <p class="card__category">Design</p>
+        <h1 class="card__title">Embracing Minimalism</h1>
+        <p class="card__description">
+          From minimalist sculptures to minimalist paintings, this blog will
+          inspire you to appreciate the beauty that lies in simplicity.
+        </p>
+         <div class="line"></div>
+        <div class="card__author">
+          
+          <span class="card__author-name">Annie Spratt</span>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>
