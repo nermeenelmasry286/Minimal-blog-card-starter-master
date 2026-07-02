@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+  name="description"
+  content="A minimal blog card about embracing minimalism, built with HTML and CSS."
+/>
 
     <link
       rel="icon"
@@ -27,13 +31,14 @@
       body {
        
          margin: 0;
-         display: grid;
-         justify-items: center;
          font-family: "Sora", sans-serif;
          background-color: #FAFAF9;
          
       }
-     
+     main{
+        display: grid;
+        justify-items: center;
+      }
       .card {
         width: 368px;
         margin-top:164px;
@@ -106,10 +111,11 @@
 
   Annie Spratt -->
 
+  <main>
 
   <div class="card">
       <div class="card__image">
-        <img src="resources/Cactus.jpg" alt="Equilibrium" />
+        <img src="resources/Cactus.jpg" alt="Cactus plant" width="336" height="152" fetchpriority="high"/>
       </div>
       <div class="card__content">
         <p class="card__category">Design</p>
@@ -125,6 +131,7 @@
         </div>
       </div>
     </div>
+    </main>
   
   </body>
 </html>
